@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
+
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"> </label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+            <a href="#home">logo</a>
+        </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#grid-one">grid-one</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#grid-two">grid-two</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+        <div class="intro-text-content">
+        <h2> Criação Landing Page</h2>
+            <p>Nessa Landing Page eu vou aprender as ferramentas de CSS para a criação de cada tópico dessa página, essa Landing Page está sendo utilizada para se incrementada no meu portfólio pessoal</p>
+        </div>
+        <div class="intro-img">
+            <img src="assets/img/javascript.svg" alt="logo de HTML, CSS e JS.">
+        </div>
+        </div>
+    </section>
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Top 3 Linguagens</h2>
+            <p>
+                HTML (HyperText Markup Language) é a linguagem base para a estruturação de páginas na web. Ele organiza o conteúdo em elementos como títulos, parágrafos, imagens e links, criando a "espinha dorsal" de um site. Cada elemento é definido por tags que indicam sua função, permitindo que navegadores interpretem e exibam o conteúdo de forma organizada.
+            </p>
+            <p>
+                CSS (Cascading Style Sheets) é a linguagem responsável pela estilização e apresentação visual das páginas web. Com o CSS, é possível definir cores, fontes, tamanhos, espaçamentos e até criar animações, garantindo que o site seja atraente e responsivo. Ele trabalha em conjunto com o HTML, separando o design da estrutura para facilitar a manutenção e personalização.
+            </p>
+            <p>
+                JavaScript é a linguagem de programação que adiciona interatividade e dinamismo aos sites. Com ele, é possível criar funcionalidades como validação de formulários, menus interativos, sliders e até aplicações mais complexas, como jogos e sistemas web. Ele transforma páginas estáticas em experiências interativas e modernas, sendo essencial no desenvolvimento web atual.
+            </p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Principais Conceitos do Front-end</h2>
+        <p class="grid-description">Alguns dos conceitos fundamentais que estou estudando e aplicando no desenvolvimento front-end.</p>
+        <div class="grid">
+            <article>
+            <h3>Estrutura</h3>
+        <p>Aplicação de uma estrutura HTML bem organizada e semântica, facilitando a leitura do código, a manutenção do projeto e a acessibilidade da página.</p>
+        </article>
+            <article>
+            <h3>Estilização</h3>
+        <p>Utilização do CSS para definir cores, fontes, espaçamentos e layout, criando uma interface visual agradável e responsiva para diferentes dispositivos.</p>
+        </article>
+            <article>
+            <h3>Interatividade</h3>
+        <p>Implementação de comportamentos interativos com JavaScript, tornando a página mais dinâmica e melhorando a experiência do usuário.</p>
+        </article>
+        </div>
+    </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Galeria de Exemplos Visuais</h2>
+        <p class="grid-description">Exemplo de galeria criada para praticar grid layout, posicionamento de elementos e efeitos visuais com CSS.</p>
+        <div class="grid">
+            <div class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1621268996424-3e3b03a2b5e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tLi4ufGVufDB8MnwwfHx8MA%3D%3D" alt="1 random image from unsplash">
+            </div>
+            <div class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1724231633129-66f23dfea038?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGltYWdlbXxlbnwwfDJ8MHx8fDA%3D" alt="2 random image from unsplash">
+            </div>
+            <div class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1640595843206-4f554e6c6030?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQxfHxpbWFnZW18ZW58MHwyfDB8fHww" alt="3 random image from unsplash">
+            </div>
+            <div class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1630313877297-8773445184b9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU4fHxpbWFnZW18ZW58MHwyfDB8fHww" alt="4 random image from unsplash">
+            </div>
+            <div class="gallery-img">
+                <img src="https://plus.unsplash.com/premium_photo-1672642064006-1fee5b489c35?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTUxfHxpbWFnZW18ZW58MHwyfDB8fHww" alt="5 random image from unsplash">
+            </div>
+            <div class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1656403002413-2ac6137237d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzAzfHxpbWFnZW18ZW58MHwyfDB8fHww" alt="6 random image from unsplash">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Boas Práticas de Desenvolvimento</h2>
+        <p class="grid-description">Algumas práticas importantes aplicadas durante o desenvolvimento desta landing page.</p>
+        <div class="grid">
+            <article>
+            <h3>Organização do Código</h3>
+        <p>Separação dos arquivos por responsabilidade, mantendo o projeto mais organizado, limpo e fácil de entender.</p>
+        </article>
+            <article>
+            <h3>Reutilização de Estilos</h3>
+        <p>Uso de classes reutilizáveis para evitar repetição de código e manter consistência visual em toda a página.</p>
+        </article>
+            <article>
+            <h3>Experiência do Usuário</h3>
+        <p>Foco em legibilidade, espaçamento e navegação suave, proporcionando uma experiência mais agradável ao usuário.</p>
+        </article>
+        </div>
+    </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Tabela de Planos e Serviços</h2>
+            <p>
+                Esta tabela representa uma simulação de planos e serviços, criada com o objetivo de praticar a construção de tabelas responsivas utilizando HTML e CSS.
+            </p>
+            <p>
+                Aqui são aplicados conceitos como organização de dados, uso correto de tags semânticas e adaptação do layout para diferentes tamanhos de tela.
+            </p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Simulação de planos</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Plano</th>
+                            <th>Recursos</th>
+                            <th>Suporte</th>
+                            <th>Layout</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Básico</td>
+                            <td>Estrutura HTML</td>
+                            <td>E-mail</td>
+                            <td>Simples</td>
+                            <td>R$99,00</td>
+                        </tr>
+                        <tr>
+                            <td>Intermediário</td>
+                            <td>HTML + CSS</td>
+                            <td>E-mail e Chat</td>
+                            <td>Responsivo</td>
+                            <td>R$ 199,00</td>
+                        </tr>
+                        <tr>
+                            <td>Avançado</td>
+                            <td>HTML, CSS e JS</td>
+                            <td>Completo</td>
+                            <td>Personalizado</td>
+                            <td>R$ 299,00</td>
+                        </tr>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Valores ilustrativos</td>
+                        </tr>
+                    </tfoot>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+        <div class="intro-text-content">
+        <h2>Entre em Contato</h2>
+            <p>Se você quiser entrar em contato, tirar dúvidas ou falar sobre oportunidades, utilize o formulário abaixo. Esta seção foi criada para praticar formulários e estruturação de dados em HTML.</p>
+        </div>
+        <div class="intro-img">
+            <img src="assets/img/img-js.svg" alt="logo de HTML, CSS e JS.">
+        </div>
+        <div class="contact-form">
+            <fieldset class="form-grid">
+                <legend>Fale comigo</legend>
+
+                <div class="form-group">
+                    <label for="first-name">Nome</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Sobrenome</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                </div>
+                <div class="form-group full-width">
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" placeholder="Sua mensagem" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-group full-width">
+                    <button type="submit">Enviar Mensagem</button>
+                </div>
+            </fieldset>
+        </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a rel="" target="_blank" href="">Feito com <span class="heart">❤</span> por Guilherme Gusman</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+</body>
+</html>
